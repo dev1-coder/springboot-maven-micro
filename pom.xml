@@ -40,6 +40,11 @@
 				<version>3.1.0</version> <!-- Change this version to 3.9.6 -->
 			</plugin>
 			<plugin>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>3.10.0.2594</version>
+            </plugin>
+			<plugin>
                <groupId>io.snyk</groupId>
                  <artifactId>snyk-maven-plugin</artifactId>
                  <version>2.2.0</version>
